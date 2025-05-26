@@ -1,0 +1,91 @@
+/* // `xs` returns only a ruleset and no media query */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .header_top_icon {
+        padding: 0px 0px;
+    }
+
+    .header_top_icon p {
+        font-size: 17px;
+        line-height: 45px;
+    }
+    .header_top_icon ul {
+        margin-left: 40px;
+    }
+    .header_top_icon ul li a {
+        margin-right: 16px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    .header_top_webmail {
+        margin-left: 20px;
+    }
+;
+    .header_top_webmail a{
+        font-size: 18px;
+    } 
+    .logo_part {
+        padding: 0ps 15px;
+        margin-left: 20px;
+    }
+    .contact {
+        left: -23px;
+        padding-right: 104px;
+    }
+    .contact_details h6 {
+        font-size: 12px;
+        line-height: 1;
+    }
+    .contact_details p {
+        font-size: 14px;
+        line-height: 1;
+    }
+    .email {
+    padding-top: 16px;
+    left: -136px;
+    padding-right: 163px;
+}
+.email_details h6 {
+    line-height: 1;
+}
+.md_designation {
+    padding-top: 20px;
+    padding-left: 100px;
+    left: -616px;
+    margin-top: 67px;
+    margin-bottom: 10px;
+}
+
+.md_designation .shape2::before {
+    right: 27px;
+    top: 34px;
+}
+.md_designation .shape1::before {
+    top: 9px;
+    left: 108px;
+}
+.carousel-caption h3.main-head {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0px;
+    
+}
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
