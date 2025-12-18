@@ -1,91 +1,154 @@
-/* // `xs` returns only a ruleset and no media query */
+/* // `xs` returns only a ruleset and no media query 320px*/
+@media (max-width: 320px) {
+  .header_top_icon {
+    padding: 0px;
+  }
+  .header_top_icon {
+    align-items: center;
+    gap: 10px;
+  }
 
-@media (min-width: 320px) and (max-width: 575px) {
-    .header_top_icon {
-        padding: 0px 0px;
-    }
+  .header_top_icon ul li a {
+    margin-right: 6px;
+  }
+  .header_top_icon p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .header_top_icon ul {
+    margin-left: 0px;
+  }
 
-    .header_top_icon p {
-        font-size: 17px;
-        line-height: 45px;
-    }
-    .header_top_icon ul {
-        margin-left: 40px;
-    }
-    .header_top_icon ul li a {
-        margin-right: 16px;
-        line-height: 45px;
-        font-size: 16px;
-    }
-    .text-end {
-        text-align: center !important;
-    }
-    .header_top_webmail {
-        margin-left: 20px;
-    }
-;
-    .header_top_webmail a{
-        font-size: 18px;
-    } 
-    .logo_part {
-        padding: 0ps 15px;
-        margin-left: 20px;
-    }
-    .contact {
-        left: -23px;
-        padding-right: 104px;
-    }
-    .contact_details h6 {
-        font-size: 12px;
-        line-height: 1;
-    }
-    .contact_details p {
-        font-size: 14px;
-        line-height: 1;
-    }
-    .email {
-    padding-top: 16px;
-    left: -136px;
-    padding-right: 163px;
+  .header_middle {
+    display: none;
+  }
+
+  .navbar-toggler {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .counter {
+    padding: 30px 0px;
+  }
+
+  .founder_part {
+    padding: 30px 0px;
+  }
+
+  .form_part {
+    width: 100% !important;
+  }
 }
-.email_details h6 {
+
+/* // `sm` returns only a ruleset and no media query 576px */
+@media (min-width: 320.1px) and (max-width: 576px) {
+  .header_top_icon {
+    padding: 0px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .header_top_icon {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header_top_icon ul li a {
+    margin-right: 6px;
+  }
+  .header_top_icon p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .header_top_icon ul {
+    margin-left: 0px;
+  }
+
+  .header_middle {
+    display: none;
+  }
+
+  .navbar-toggler {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+
+  .counter {
+    padding: 30px 0px;
+  }
+
+  .founder_part {
+    padding: 30px 0px;
+  }
+
+  .form_part {
+    width: 100% !important;
+  }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 768px) */
+@media (min-width: 576.1px) and (max-width: 768px) {
+  .header_middle {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .collapse .navbar-nav .nav-item .nav-link {
+    margin-right: 8px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+
+  .carousel-caption h3.main-head {
+    padding-bottom: 10px;
+  }
+
+  .carousel-caption p {
+    padding-bottom: 10px;
     line-height: 1;
-}
-.md_designation {
-    padding-top: 20px;
-    padding-left: 100px;
-    left: -616px;
-    margin-top: 67px;
-    margin-bottom: 10px;
-}
+  }
 
-.md_designation .shape2::before {
-    right: 27px;
-    top: 34px;
-}
-.md_designation .shape1::before {
-    top: 9px;
-    left: 108px;
-}
-.carousel-caption h3.main-head {
-    color: #fff;
-    font-weight: 900;
-    font-size: 30px;
+  .carousel-caption a {
+    padding: 5px 15px;
     margin-top: 0px;
-    
+  }
+
+  .form_part {
+    width: 100% !important;
+  }
+  .footer_logo_part {
+    padding: 0px;
+  }
+  .contact_part {
+    padding: 0px;
+  }
+
+  .link_heading {
+    padding: 0px;
+  }
 }
+
+/* // `md` applies to small devices (landscape phones, less than 992px) */
+@media (min-width: 768.1px) and (max-width: 992px) {
 }
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+/* // `lg` applies to medium devices (tablets, less than 1200px) */
+@media (min-width: 992.1px) and (max-width: 1200px) {
+}
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { ... }
-
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+/* // `xl` applies to large devices (desktops, less than 1400px) */
+@media (min-width: 1200.1px) and (max-width: 1400px) {
+}
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { ... }
+@media (max-width: 1401px) {
+}
