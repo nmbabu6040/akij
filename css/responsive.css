@@ -41,6 +41,10 @@
   .form_part {
     width: 100% !important;
   }
+
+  .productListItem .buttonGroup {
+    flex-direction: column;
+  }
 }
 
 /* // `sm` returns only a ruleset and no media query 576px */
